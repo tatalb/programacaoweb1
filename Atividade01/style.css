@@ -1,0 +1,28 @@
+.destaque{ /* quando poe ponto cria uma classe, se nao esta referenciando um atributo( h p header etc*/
+    color: red;
+    background-color: cyan;
+    /*
+    como configurar cores
+    -pelo nome: exemplo :red
+    -pelo código:
+        código é hexa o RGB
+        exemplo: ff(vermelho)ff(verde)ff(azul)
+    */
+}
+h1.destaque{
+    color:black;
+    background-color: gray;
+}
+
+#tabela1 {
+    border-color: yellow;
+    border-style: solid;
+    border-width: 10px;
+}
+
+#tabela2{ /* este formato é tem perfomance melhor*/
+    border: yellow solid 20px;
+}
+.centralizado{
+    text-align: center;
+}

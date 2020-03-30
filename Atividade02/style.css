@@ -1,0 +1,25 @@
+.fundo{
+    background-color: #cdf0ff;
+}
+.corpo{
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 7px;
+    height: 200px;
+    width: 1000px; 
+}
+.tamanhoheader {  
+    height: 100px;       
+}
+.bordavermelha{
+    color: white;
+    border-color:red;
+    border-style: solid;
+    background-color: #0066aa;
+    border-width: 7px;
+    width: 1000px;
+}
+.centralizado{
+    text-align: center;
+}
