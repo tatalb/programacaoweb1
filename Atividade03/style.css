@@ -1,0 +1,61 @@
+.fundo{
+    background-color: #cdf0ff;
+}
+.cabecalho{
+    
+    color: white;
+    border-color:red;
+    border-style: solid;
+    background-color: #0066aa;
+    border-width: 5px;
+    width: 600px;
+    margin: 5px auto;
+    text-align: center ; 
+   
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+.teste{
+    vertical-align: center;
+}
+.menunav{
+    color: white;
+    border-color:red;
+    border-style: solid;
+    background-color: #0066aa;
+    border-width: 5px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;   
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.principal{
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+    height: 300px;
+    width: 600px;
+    margin: 8px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 20px;
+    
+    
+}
+.rodape{
+    color: white;
+    border-color:red;
+    border-style: solid;
+    background-color: #0066aa;
+    border-width: 5px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+

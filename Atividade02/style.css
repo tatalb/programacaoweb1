@@ -1,24 +1,27 @@
-.fundo{
-    background-color: #cdf0ff;
+.destaque{ /* quando poe ponto cria uma classe, se nao esta referenciando um atributo( h p header etc*/
+    color: red;
+    background-color: cyan;
+    /*
+    como configurar cores
+    -pelo nome: exemplo :red
+    -pelo código:
+        código é hexa o RGB
+        exemplo: ff(vermelho)ff(verde)ff(azul)
+    */
 }
-.corpo{
-    background-color: white;
-    border-color: black;
+h1.destaque{
+    color:black;
+    background-color: gray;
+}
+
+#tabela1 {
+    border-color: yellow;
     border-style: solid;
-    border-width: 7px;
-    height: 200px;
-    width: 1000px; 
+    border-width: 10px;
 }
-.tamanhoheader {  
-    height: 100px;       
-}
-.bordavermelha{
-    color: white;
-    border-color:red;
-    border-style: solid;
-    background-color: #0066aa;
-    border-width: 7px;
-    width: 1000px;
+
+#tabela2{ /* este formato é tem perfomance melhor*/
+    border: yellow solid 20px;
 }
 .centralizado{
     text-align: center;
