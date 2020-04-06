@@ -1,28 +1,32 @@
-.destaque{ /* quando poe ponto cria uma classe, se nao esta referenciando um atributo( h p header etc*/
-    color: red;
-    background-color: cyan;
-    /*
-    como configurar cores
-    -pelo nome: exemplo :red
-    -pelo código:
-        código é hexa o RGB
-        exemplo: ff(vermelho)ff(verde)ff(azul)
-    */
+.titulo{ /* quando poe ponto cria uma classe, se nao esta referenciando um atributo( h p header etc*/
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    
 }
-h1.destaque{
+.subtitulo{
+    color:#555 ;    
+    font-family: 'Open Sans', sans-serif;
+}
+th{
+    text-align: center ;
+    font-weight: bold;
     color:black;
-    background-color: gray;
+    font-size: small;
 }
-
-#tabela1 {
-    border-color: yellow;
-    border-style: solid;
-    border-width: 10px;
-}
-
-#tabela2{ /* este formato é tem perfomance melhor*/
-    border: yellow solid 20px;
-}
-.centralizado{
+.textoaocentro{
     text-align: center;
 }
+table, td {
+    font-family: 'Open Sans', sans-serif;
+  }
+tr:nth-child(even)
+{
+    background-color: rgb(224, 224, 224);
+    color:#555;
+    
+    }  
+tr:nth-child(odd){
+    color:#555;        
+}  
+    
