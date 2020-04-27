@@ -1,0 +1,35 @@
+body{
+    background-color: cyan;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+}
+button{
+    width: 80px;
+    height: 40px;
+    border-color: crimson;
+    background-color: fuchsia;
+    font-size: 14px;
+    font: arial;
+
+}
+#n1{
+    font: arial;
+}
+#n2{
+   font: arial;
+}
+#n3{
+    font: arial;
+}
+
+
+
+@media only screen and (min-width: 1000px){
+    #conteudocentral{    
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        }
+}

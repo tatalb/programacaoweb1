@@ -1,0 +1,48 @@
+nav {
+
+    border: 10px cyan solid;
+    background-color:magenta;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  }
+
+  nav ul {
+
+    padding: 0;
+
+    list-style: none;
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: space-around;
+
+  }
+
+  nav a {
+
+    color: black;
+    font-weight: bolder;
+    
+  }
+
+  .menu ul {
+
+    display: none;
+
+  }
+
+  .menu li:hover ul {
+
+    position: absolute;
+
+    display: block;
+
+    background-color: rgb(117, 246, 255);
+
+    padding: 10px;
+
+    border: 2px rgb(0, 0, 0) solid;
+
+  }

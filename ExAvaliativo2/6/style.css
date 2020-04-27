@@ -1,0 +1,25 @@
+body{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    border: 3px solid #264874;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botao {
+    background-color: rgb(76, 175, 137); /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
