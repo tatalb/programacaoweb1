@@ -1,0 +1,226 @@
+
+body{
+    height: 100%;
+    margin: 0;
+    background-color: #999999;
+}
+#geral{
+    min-height:100%;
+    position:relative;
+}
+header{
+    color: rgb(56, 56, 56);
+    padding: 26px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    display:  flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Calibri,'Gill Sans', 'Trebuchet MS', sans-serif;
+    letter-spacing: -2px;
+    font-size: 20px;
+}
+
+#login{
+    text-decoration: none;
+    font-family: Calibri,'Gill Sans', 'Trebuchet MS', sans-serif;
+    color: rgb(56, 56, 56);
+    font-size: 25px;
+}
+
+.menu{
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    font-family: Calibri,'Gill Sans', 'Trebuchet MS', sans-serif;
+}
+.menu ul{
+    margin: 0;
+    padding-left: 50%;
+    list-style: none;
+    position: relative;
+    display: inline-block;
+    
+}
+.menu ul li{
+    float: left;
+}
+.menu a{
+    padding: 3px 10px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: white;
+    color: rgb(56, 56, 56);
+}
+.menu a:hover {
+    border: solid 2px black;
+}
+.menu ul ul{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    visibility: hidden;
+    width: 70px;
+}
+.menu ul li:hover ul{
+    visibility: visible;
+}
+#submenu{
+    padding: 0;
+    display: list-item;
+    display:flex;
+}
+#submenu a{
+    float: left;
+    position: static;
+}
+#imagen{
+    min-height: 400px;
+    background-size:  100% 550px;
+    background-repeat:no-repeat;
+    background-image:  url("https://www.thespruce.com/thmb/Fjay3g7l063ZyurLycUnobVStIU=/2122x1415/filters:fill(auto,1)/153596483-57c789443df78c71b664e496.jpg") ;
+    padding-bottom: 12px;
+    background-color: white;
+}
+#imagen ul{
+    padding-left: 65%;
+    padding-top: 170px;
+    font-family: Calibri,'Gill Sans', 'Trebuchet MS', sans-serif;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+#Nome{
+    font-size: 30px;
+}
+#Semana{
+    font-size: 18px;
+}
+#textoPrincipal{
+    padding-left: 35px;
+    color: rgb(214, 214, 214);
+    width: 320px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: Calibri,'Gill Sans', 'Trebuchet MS', sans-serif;
+}   
+#rodape{
+    float: right;  
+    display: flex;
+    flex-direction: row;
+  
+}
+#textoCanto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    font-size: 6px;
+    font-family: Calibri,'Gill Sans', 'Trebuchet MS', sans-serif;
+    
+}
+#subtitulo{
+    color: rgb(56, 56, 56);
+    text-align: center;  
+    font-style: normal;
+    font-family: 'Muli', sans-serif;
+    
+    
+}
+#vertical{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+
+#horizontal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height:200px;
+}
+#listaBeneficios{
+   list-style-type: square;
+   padding-left: 60%;
+   font-family: 'Muli', sans-serif;
+
+}
+
+.formulario {
+    font-family: 'Muli', sans-serif;
+    padding-left: 0;
+  }
+  
+.formulario input {
+   align-items: center;
+   background-color: rgb(223, 223, 223);
+   margin-bottom: 10px;
+   
+  
+  }
+  .formulario label{
+    text-align: left;
+    font-size: large;
+    margin-left: 32px;
+    display: inline-block;
+    width: 100px;
+    font-family: 'Muli', sans-serif;
+    
+}
+.formulario button{
+    font-family:  Calibri,'Gill Sans', 'Trebuchet MS', sans-serif;
+    background-color: rgb(223, 223, 223);
+    display: inline-block;
+    margin-left: 30px;
+  
+
+}  
+.botaoAjude{
+    background-color: white;
+    font-family: Calibri,'Gill Sans', 'Trebuchet MS', sans-serif;
+    width: 120px;
+    text-align: left;
+    font-size: 14px;
+}
+#Curiosidade{
+    list-style: none;
+    font-family: Calibri,'Gill Sans', 'Trebuchet MS', sans-serif;
+}
+#Curiosidade h3{
+    font-size: 22px;
+    font-family: Calibri,'Gill Sans', 'Trebuchet MS', sans-serif;
+}
+#Curiosidade ul {
+    list-style: none;
+    font-size: 15px;
+    font-family: Calibri,'Gill Sans', 'Trebuchet MS', sans-serif;
+}
+#guiados{
+    font-family: Calibri,'Gill Sans', 'Trebuchet MS', sans-serif;
+}
+
+@media screen and (max-width: 697px) {
+    .menu{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu ul{
+    padding-left: 0;
+    align-items: center;
+    }
+    #vertical{
+        min-height: 600px;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+    .formulario {
+        padding-left: 26%;
+    }
+    
+}
