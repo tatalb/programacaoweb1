@@ -88,7 +88,8 @@ function verOQueFaz(){
                     alert('Empregado ' + empregado.name + " atualizado com sucesso");
                     document.getElementById("botao").value = "Salvar";
                     document.getElementById("titulo").innerHTML = "Adicionando novo empregado";
-                    document.getElementById("idAtual").innerHTML = "";      
+                    document.getElementById("idAtual").innerHTML = "";  
+                    location.reload();    
                 } else {
                     //erro na requisicao
                     alert('Ocorreu um erro na requisição (status: ' + this.status + ')');
@@ -98,7 +99,7 @@ function verOQueFaz(){
         };
          var formatoJson = JSON.stringify(empregadoEditado);
          xhttp.send(formatoJson);
-         alert('bruxaria2');// NAO APAGAR ESSA MERDA
+         
      }
      else
      {
@@ -121,7 +122,7 @@ function editar(id) {
                 document.getElementById("botao").textContent = "Editar";
                 document.getElementById("titulo").innerHTML = "Editando dados do Empregado:";
                 document.getElementById("idAtual").innerHTML = empregado.id;
-               poeNoForm(empregado);                
+                poeNoForm(empregado);                
             } else {
                 //erro na requisicao
                 alert('Ocorreu um erro na requisição (status: ' + this.status + ')');
@@ -213,6 +214,7 @@ function enviar() {
                 var retorno = JSON.parse(this.responseText);
                 var nome = retorno.data.name;
                 alert("O empregado " + nome + " foi cadastrado com sucesso!");
+                location.reload();
             } else {
                 //erro na requisicao
                 alert('Ocorreu um erro na requisição (status: ' + this.status + ')');
@@ -223,5 +225,5 @@ function enviar() {
    
     var formatoJson = JSON.stringify(novoEmpregado);
     xhttp.send(formatoJson);
-    alert("bruxaria");// NAO APAGAR ESSA MERDA
+    //alert("bruxaria");// NAO APAGAR ESSA MERDA
 }
